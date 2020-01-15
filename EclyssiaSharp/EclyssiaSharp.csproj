@@ -2,6 +2,24 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Authors>MatthieuCoder</Authors>
+    <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+    <PackageProjectUrl>https://matthieu-dev.xyz</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/MatthieuCoder/EclyssiaSharp</RepositoryUrl>
+    <PackageTags>image,Eclyssia, c#, wrapper</PackageTags>
+    <PackageIconUrl>https://cdn.discordapp.com/icons/485420015118712852/297638145c15ec4bb3933f68e0870896.webp?size=128</PackageIconUrl>
+    <Copyright>MatthieuCoder © 202</Copyright>
+    <PackageId>MatthieuCoder.EclyssiaSharp</PackageId>
+    <Description>A c# client wrapper for EclyssiaSharp</Description>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE.md">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
